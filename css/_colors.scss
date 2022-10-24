@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #e1e1e1;
+  --secondary-color: #17141d;
+  --link-color: #11049f;
+}
+
+html.dark-mode:root {
+  --primary-color: #17141d;
+  --secondary-color: #e6e6e6;
+  --link-color: #a24ef1;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  transition: 0.3s linear;
+}
